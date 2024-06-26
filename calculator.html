@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.css">
+</head>
+
+<body>
+    <div class="cont">
+        <img src="img/22.png" class="icone1">
+        <br><br>
+        <div class="login-page" >
+            <form class="form" action="" method="post">
+                <i class="fa-solid fa-hand-holding-dollar" id="iconeP"></i>
+                <input type="number" placeholder="Amount of capital " class="password" maxlength="15" required name="password"/>
+                <span class="password-validation"></span>
+                <br>
+                <!--  -->
+                <i class="fa-solid fa-trowel-bricks" id="icone"></i>
+                <input type="number" placeholder="Risk Percentage" class="username" maxlength="2" minlength="1" required  name="username"/>
+                <span class="username-validation"></span>
+                <br>
+                <!--  -->
+                <i class="fa-solid fa-circle-exclamation" id="iconeRP"></i>
+                <input type="number" placeholder="Stop Loss with leverage" class="Rpassword" maxlength="15" required name="Rpassword"/>
+                <span class="Rpassword-validation"></span>
+                <br>
+                <input type="submit" value="Computing" class="btn" />
+                <br>
+                <!--  -->
+                <label for="label">Stop Loss amount</label>
+                <br>
+                <br>
+                <i class="fa-solid fa-circle-dollar-to-slot"></i>
+                <input readonly type="number" placeholder="Stop Loss amount" class="stop" maxlength="15" required />
+                <br>
+                <!--  -->
+                <label for="label">Position Margin</label>
+                <br>
+                <br>
+                <i class="fa-solid fa-receipt"></i>
+                <input type="text" readonly placeholder="position margin" class="email" maxlength="30" name="Email"/>
+                <br>
+                <span class="email-validation"></span>
+                <br>
+            </form>
+        </div>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> <br><br><br><br><br><br><br><br><br><br>
+        <img src="img/11.png" class="icone2">
+    </div>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
